@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h1>Favorites</h1>
+    <!-- Navigation Bar -->
+    <div id="nav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Academy</a></li>
+        <li><a href="">Development</a></li>
+      </ul>
+    </div>
+    <!-- Search Bar -->
+    <div id="searchBar">
+      <form action="http://google.com/search">
+        <input type="text" placeholder="Search.." name="query" id="query" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <!-- Bookmark -->
+    <div id="bookmarkBorder">
+      <span
+        id="naver"
+        class="bookmark"
+        onclick="window.open('http://naver.com')"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          focusable="false"
+          width="60"
+          height="60"
+          style="
+            -ms-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          "
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 1792 1792"
+        >
+          <path
+            d="M64 0Q39 0 19.5 19T0 64v1664q0 26 19.5 45t44.5 19h1664q25 0 44.5-19t19.5-45V64q0-26-19.5-45T1728 0H64zm337 448h345l300 448V448h345v896h-345L746 896v448H401V448z"
+          />
+        </svg>
+        <span>Naver</span>
+      </span>
+      <span class="bookmark" onclick="window.open('http://youtube.com')">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="60"
+          height="60"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+          />
+        </svg>
+        <span>Youtube</span>
+      </span>
+      <span
+        id="papago"
+        class="bookmark"
+        onclick="window.open('http://papago.naver.com/')"
+      >
+        <img
+          src="https://lh3.googleusercontent.com/Vtjgs3iC-0Bz1eucIL2RhgJEn6evMCCkWzjsR-UD5OgV6zZf31QVHeTxLSSy5meuzA2LuTEDiw=w128-h128-e365-rj-sc0x00ffffff"
+        />
+        <span>Papago</span>
+      </span>
+    </div>
+    <div id="bookmarkBorder2">
+      <span
+        id="netflix"
+        class="bookmark"
+        onclick="window.open('http://netflix.com')"
+      >
+        <img src="images/netflix.png" />
+        <span>Netflix</span>
+      </span>
+      <span
+        id="deakin"
+        class="bookmark"
+        onclick="window.open('https://learning.deakincollege.edu.au/')"
+      >
+        <img src="images/deakin.png" />
+        <span>Deakin</span>
+      </span>
+    </div>
+  </body>
+</html>
